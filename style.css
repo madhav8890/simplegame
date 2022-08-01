@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: aqua;
+    text-align: center;
+}
+
+div#d1 {
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    display: block;
+    visibility: hidden;
+
+}
+button {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    background: transparent;
+    font-size: 1.1rem;
+    padding: 15px 45px;
+    margin-top: 3em;
+    outline: none;
+}
+img::selection{
+background: transparent;
+}
